@@ -9,7 +9,7 @@ services:
       context: .
       dockerfile: nginx.Dockerfile
     ports:
-      - '80:80'
+      - '45080:80'
   web:
     image: httpd
     volumes:
